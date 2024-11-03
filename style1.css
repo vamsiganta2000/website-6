@@ -1,0 +1,85 @@
+body{
+    background-image: url("restaurant-1948732_1920.webp");
+    background-size: cover;
+    height: 100%;
+}
+
+
+h1{
+    color: rgb(70, 37, 100);
+}
+.card{
+    background-color: rgba(0, 0, 0,0.7);
+}
+.card-title, .card-text{
+    
+    color: aliceblue;
+}
+
+
+.categories .box-container .box:hover
+{
+    box-shadow: 1px 1px 10px 4px rgb(139, 93, 218);
+}
+
+.categories .box-container .box img
+{
+    margin: 1.5rem 0;
+
+}
+.categories .box-container .box h3
+{
+    padding-left: 5rem;
+    font-size: 1.5rem;
+    color: var(--bl);
+}
+
+.heading{
+    text-align: center;
+    padding: 2rem 0;
+    padding-bottom: 2rem;
+    font-size: 3.5rem;
+    color: rgb(13, 130, 44);
+}
+.heading span
+{
+    background-color: rgb(16, 2, 12);
+    color: #ebe2e2;
+    display: inline-block;
+    padding: .5rem 3rem;
+    clip-path: polygon(100% 0, 93% 50%,100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
+
+button{
+    background-color: rgb(175, 221, 82);
+     margin-left: 11px; 
+     border-radius: 10px;
+    padding: 11px; width: 100px;
+}
+button a{
+    color: rgb(17, 193, 73);
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+
+/*  Smart phone      */
+                  
+@media screen and (min-width:320px )  {
+
+}
+/*  Tablet,ipad      */    
+
+@media Screen and (min-width:768px) and (max-width:1024px){
+}
+
+/* Desktops and Laptops asfsdf     */    
+
+@media Screen and (min-width:1224px) {
+}
+
+/* Large Screens---------  */
+@media Screen and (min-width:1824px) {
+}

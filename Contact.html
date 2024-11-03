@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us </title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container bg-dark text-white p-4 mt-5 rounded shadow-lg">
+        <h1 class="text-center mb-4">Contact Us</h1>
+        <form id="contactForm" novalidate>
+            <div class="mb-3 position-relative">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+                <div class="error-message text-danger small">ENTER YOUR NAME</div>
+            </div>
+            <div class="mb-3 position-relative">
+                <label for="email" class="form-label">Your Email</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+                <div class="error-message text-danger small">ENTER CORECT MAIL ID</div>
+            </div>
+            <div class="mb-3 position-relative">
+                <label for="message" class="form-label">Your Message</label>
+                <textarea class="form-control" id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                <div class="error-message text-danger small">WRITE A NOTE</div>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+        </form>
+        <p class="text-center mt-3"><a href="Home1.html" class="text-white">Back to Home</a></p>
+    </div>
+    <footer class="bg-dark text-center text-white py-3">
+        <p>&copy; 2024 Ganta Sai Vamsi</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="contact.js"></script>
+</body>
+</html>

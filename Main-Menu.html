@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biryani's and More - Menu</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style (2).css">
+    <script>
+    
+        function validateMenuItem(name, halfPrice, fullPrice) {
+            const nameRegex = /^[A-Za-z\s-]+$/;
+            const priceRegex = /^\d+(\.\d{1,2})?$/;
+
+            if (!nameRegex.test(name) || !priceRegex.test(halfPrice) || !priceRegex.test(fullPrice)) {
+                alert("Invalid menu item entry. Please ensure item names contain only letters and prices are numbers.");
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Biryani's and More</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="Home1.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="website.html">Registration</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login1.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header>
+    <h1>Our Delicious Menu</h1>
+</header>
+
+<div class="container">
+
+    <h1>Biryani's</h1>
+    <table class="table table-hover table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>ITEMS</th>
+                <th>HALF (RS)</th>
+                <th>LARGE (RS)</th>
+                <th>FAMILY (RS)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dhum Biryani</td>
+                <td>120</td>
+                <td>240</td>
+                <td>480</td>
+            </tr>
+            <tr>
+                <td>Fry-piece Biryani</td>
+                <td>130</td>
+                <td>260</td>
+                <td>520</td>
+            </tr>
+            <tr>
+                <td>Mughal Biryani</td>
+                <td>140</td>
+                <td>280</td>
+                <td>520</td>
+            </tr>
+            <tr>
+                <td>Afghani Biryani</td>
+                <td>150</td>
+                <td>300</td>
+                <td>580</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>Starters</h1>
+    <table class="table table-hover table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>ITEMS</th>
+                <th>HALF (RS)</th>
+                <th>FULL (RS)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Chicken 555</td>
+                <td>100</td>
+                <td>180</td>
+            </tr>
+            <tr>
+                <td>Chicken-65</td>
+                <td>130</td>
+                <td>260</td>
+            </tr>
+            <tr>
+                <td>Lollipop</td>
+                <td>100</td>
+                <td>180</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <h1>Soups & Mocktails</h1>
+    <table class="table table-hover table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>ITEMS</th>
+                <th>HALF (RS)</th>
+                <th>FULL (RS)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Chicken Soup</td>
+                <td>120</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <td>Veg Soup</td>
+                <td>100</td>
+                <td>180</td>
+            </tr>
+            <tr>
+                <td>Veg Corn Soup</td>
+                <td>120</td>
+                <td>180</td>
+            </tr>
+            <tr>
+                <td>Mojito Mocktail</td>
+                <td>60</td>
+                <td>120</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
